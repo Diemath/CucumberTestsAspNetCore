@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CucumberTests", "CucumberTests\CucumberTests.csproj", "{71923416-9905-4D7F-9CA4-D4C21AFD4B7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "..\Calculator\Calculator.csproj", "{80397A32-AB2F-41C9-91BF-E1A2EC646572}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71923416-9905-4D7F-9CA4-D4C21AFD4B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71923416-9905-4D7F-9CA4-D4C21AFD4B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71923416-9905-4D7F-9CA4-D4C21AFD4B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71923416-9905-4D7F-9CA4-D4C21AFD4B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80397A32-AB2F-41C9-91BF-E1A2EC646572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80397A32-AB2F-41C9-91BF-E1A2EC646572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80397A32-AB2F-41C9-91BF-E1A2EC646572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80397A32-AB2F-41C9-91BF-E1A2EC646572}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6314FC3D-5EB1-4407-896C-38ADEA1814D8}
+	EndGlobalSection
+EndGlobal
