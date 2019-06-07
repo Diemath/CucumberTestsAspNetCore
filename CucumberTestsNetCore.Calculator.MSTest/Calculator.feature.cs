@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace CucumberTests
+namespace CucumberTestsNetCore.Calculator.MSTest
 {
     using TechTalk.SpecFlow;
     

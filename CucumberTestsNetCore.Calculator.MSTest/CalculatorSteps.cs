@@ -1,7 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using TechTalk.SpecFlow;
-using Calculator;
 
 namespace CucumberTests
 {
@@ -9,7 +8,7 @@ namespace CucumberTests
     public class CalculatorSteps
     {
         private int result;
-        private Calculator.Calculator calculator = new Calculator.Calculator();
+        private CucumberTestsNetCore.Calculator.Calculator calculator = new CucumberTestsNetCore.Calculator.Calculator();
 
         [Given(@"I have entered (.*) into the calculator")]
         public void GivenIHaveEnteredIntoTheCalculator(int number)
