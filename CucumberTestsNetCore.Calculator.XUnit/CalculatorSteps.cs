@@ -1,8 +1,8 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+﻿using System;
 using TechTalk.SpecFlow;
+using Xunit;
 
-namespace CucumberTestsNetCore.Calculator.MSTest
+namespace CucumberTestsNetCore.Calculator.XUnit
 {
     [Binding]
     public class CalculatorSteps
@@ -31,7 +31,7 @@ namespace CucumberTestsNetCore.Calculator.MSTest
         [Then(@"the result should be (.*) on the screen")]
         public void ThenTheResultShouldBeOnTheScreen(int expectedResult)
         {
-            Assert.AreEqual(expectedResult, result);
+            Assert.Equal(expectedResult, result);
         }
     }
 }
