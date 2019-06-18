@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CucumberTestsNetCore.Calcul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CucumberTestsNetCore.Calculator", "CucumberTestsNetCore.Calculator\CucumberTestsNetCore.Calculator.csproj", "{8D9F680D-15B3-4AB2-89BC-02932873037D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CucumberTestsNetCore.Calculator.XUnit", "CucumberTestsNetCore.Calculator.XUnit\CucumberTestsNetCore.Calculator.XUnit.csproj", "{314CA370-FB3A-4455-872E-E0E8967FECD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CucumberTestsNetCore.Calculator.XUnit", "CucumberTestsNetCore.Calculator.XUnit\CucumberTestsNetCore.Calculator.XUnit.csproj", "{314CA370-FB3A-4455-872E-E0E8967FECD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CucumberTestsNetCore.Services.XUnit", "CucumberTestsNetCore.Services.XUnit\CucumberTestsNetCore.Services.XUnit.csproj", "{8C8699C1-8386-40A0-8466-1AB02A29C4A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CucumberTestsNetCore.Services.Abstractions", "CucumberTestsNetCore.Services.Abstractions\CucumberTestsNetCore.Services.Abstractions.csproj", "{6B7D63F7-F894-4E33-9BB1-B5D675DCAD54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{314CA370-FB3A-4455-872E-E0E8967FECD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{314CA370-FB3A-4455-872E-E0E8967FECD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{314CA370-FB3A-4455-872E-E0E8967FECD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8699C1-8386-40A0-8466-1AB02A29C4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8699C1-8386-40A0-8466-1AB02A29C4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8699C1-8386-40A0-8466-1AB02A29C4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8699C1-8386-40A0-8466-1AB02A29C4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7D63F7-F894-4E33-9BB1-B5D675DCAD54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7D63F7-F894-4E33-9BB1-B5D675DCAD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7D63F7-F894-4E33-9BB1-B5D675DCAD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7D63F7-F894-4E33-9BB1-B5D675DCAD54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
